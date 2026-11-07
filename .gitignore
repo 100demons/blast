@@ -1,0 +1,16 @@
+# Elektron firmware: never in a repository. The build applies the machine to the user's own official file.
+firmware/
+*.syx
+*.zip
+*_mod.syx
+
+# Build output and local checkouts
+build/
+vendor/
+model27/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Scratch
+*.log
